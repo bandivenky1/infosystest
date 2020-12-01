@@ -200,14 +200,14 @@
         border-bottom: 1px solid #ccc;
         border-radius: 0px;
     }
-    input[type="datetime-local"].form-control{
+    input[type="date"].form-control{
         padding: 6px 0px;
         /*color: transparent;*/
     }
-    input[type=datetime-local]:required:invalid::-webkit-datetime-edit {
+    input[type=date]:required:invalid::-webkit-datetime-edit {
         color: transparent;
     }
-    input[type=datetime-local]:focus::-webkit-datetime-edit {
+    input[type=date]:focus::-webkit-datetime-edit {
         color: black !important;
     }
     .select{
